@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Order | Surbhi Sibal Art</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,200,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class="se-pre-con"></div>
+	<!-- NAV -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button btn-lg" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img id="logo_image" alt="Demo Art">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a>
+					</li>
+					<li><a href="about.html">About Me</a>
+					</li>
+					<li><a href="portfolio.html">My Work</a>
+					</li>
+					<li class="active"><a href="#">Order</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+	<!-- /NAV -->
+
+	<!-- CONTENT -->
+	<div class="page-header">Place an Order</div>
+	<div class="container-fluid order-container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-6 order-text">
+				<p>If you wish to place a custom order, please fill out the form.</p>
+				<p>Nulla viverra tortor id lorem vestibulum dignissim. Aenean nec eros sed ipsum pulvinar gravida pulvinar ut leo. Vestibulum dictum, sem quis porta volutpat, quam mi posuere nisi, et tempus purus nunc a lectus. Duis eget eros in metus tincidunt luctus. Aliquam neque dolor, sagittis non accumsan ut, pulvinar eget nibh. Morbi volutpat mi massa, id bibendum lorem sodales ultrices. Fusce ex ligula, pulvinar eu sollicitudin ac, efficitur a sapien. Aliquam eleifend lobortis tortor, non eleifend justo molestie eget. Aliquam in posuere mi. Nullam vitae nisl mi. Aenean sit amet tellus iaculis, cursus elit eu, porta massa. Nullam quis risus imperdiet, aliquet dolor eu, dictum augue.</p>
+				<address class="contact">
+					<strong>Surbhi Sibal</strong><br>
+					<span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;<a href="mailto:contact@surbhisibal.com">contact@surbhisibal.com</a><br>
+					<span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;(123) 456-7890
+				</address>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 order-form-box">
+				<form action="//formspree.io/contact@surbhisibal.com" method="POST" data-toggle="validator">
+					<div class="form-group">
+						<label for="name-entry" class="control-label">Name: </label>
+						<input type="text" class="form-control" id="name-entry" name="name" placeholder="Surbhi Sibal" data-error="This field must be filled out" required>
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group">
+						<label for="email-entry" class="control-label">Email address: </label>
+						<input type="email" class="form-control" id="name-entry" placeholder="Email" name="_replyto" data-error="Please enter a valid email address" required>
+						<div class="help-block with-errors"></div>
+					</div>
+					<div class="form-group">
+						<label>Message type:</label>
+						<div class="radio">
+							<label>
+								<input type="radio" name="_subject" value="Order Request | SurbhiSibal.com" checked> Order Request
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="_subject" value="Message for Surbhi | SurbhiSibal.com"> Message for Surbhi
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="_subject" value="General Inquiry | SurbhiSibal.com"> General Inquiry
+							</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="message-entry" class="control-label">Message:</label>
+						<textarea type="text" class="form-control" rows="6" id="message-entry" placeholder="Enter your order request/message here" name="message" data-error="This field must be filled out" required></textarea>
+						<div class="help-block with-errors"></div>
+					</div>
+					<input type="text" name="_gotcha" style="display:none" />
+					<input type="hidden" name="_next" value="thanks.html" />
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- /CONTENT-->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/validator.js"></script>
+	<script>
+		$(window).load(function() {
+			// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");;
+		});
+	</script>
+	<!-- FOOTER -->
+	<footer class="navbar navbar-default footer">
+		<div class="footer-text">&copy; 2015 Surbhi Sibal</div>
+		<div class="footer-text">Built by: <a href="//dassani.me" class="v-link">Vansh Dassani</a></div>
+		<div class="footer-text row">
+			<a href="//instagram.com/surbhisibalart" target="_blank"><img class="social-link instagram-logo" src="images/instagram-logo.png"></a>
+			<a href="//facebook.com/surbhisibalart" target="_blank"><img class="social-link fb-logo" src="images/fb-logo.png"></a>
+		</div>
+	</footer>
+	<!-- /FOOTER-->
+</body>
+
+</html>

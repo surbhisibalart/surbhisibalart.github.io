@@ -1,0 +1,286 @@
+body {
+	position: relative;
+	padding-top: 56px;
+	padding-bottom: 2.5em;
+	min-height: 100vh;
+	font-family: 'Raleway', sans-serif;
+	background-color: #d7e286;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(/images/ajax-loader.gif) center no-repeat #fff;
+}
+
+.coral-colour {
+	color: lightcoral;
+}
+
+.navbar {
+	background-color: white;
+	border-color: lightcoral;
+}
+
+.navbar-brand {
+	padding: 0.25em;
+}
+
+#logo_image {
+	content: url(../images/small-logo.png);
+	margin-left: 1em;
+	height: 50px;
+}
+
+.home-container {
+	background-color: #d7e286;
+	height: 100%;
+	margin-bottom: 1em;
+}
+
+.hero-div {
+	/*	background-color: white;*/
+
+	height: 100%;
+}
+
+.hero-image {
+	content: url(../images/hero-image-xs.png);
+	max-width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+/*	border-bottom: 1px solid lightcoral;*/
+}
+
+.hero-textbox {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.my-vertical-align {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hero-headline {
+	font-size: 2em;
+}
+
+.hero-subline {
+	font-size: 1.5em;
+}
+
+.about {
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+.about-image {
+	content: url(../images/about-image.png);
+	height: 100%;
+}
+
+.about-text {
+	height: 100%;
+}
+
+.about-text-head {
+	color: lightcoral;
+	font-weight: 700;
+}
+
+.page-header {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.25em;
+	text-align: center;
+	font-size: 3em;
+	color: lightcoral;
+	margin-top: .5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0;
+	border: none;
+}
+
+.page-header.inside {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery {
+	margin: 0 0.5em auto;
+}
+
+.gallery-image {
+	padding: 1em;
+}
+
+.filler-image {
+/*	content: url(http://placehold.it/200x200?text=Surbhi+Sibal);*/
+	margin: auto auto;
+	width: 100%;
+}
+
+.art-title {
+	text-align: center;
+	color: lightcoral;
+}
+
+.home-content {
+	font-size: 1em;
+	font-family: inherit;
+}
+
+.home-content-box {
+	margin-bottom: 1em;
+	padding: 0 2em;
+}
+
+.cd-headline {
+	font-size: 2em;
+	padding: .2em;
+	margin: 0;
+}
+
+.type-animation-box {
+	margin: 2em auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 100%;
+}
+
+.order-form-box,
+.order-text {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em 2em;
+	height: 100%;
+}
+
+.contact {
+	width: auto;
+	margin: 2em 0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.25em;
+}
+
+.footer {
+	background-color: #d7e286;
+	position: absolute;
+	width: 100%;
+	height: 2em;
+	bottom: 0;
+	left: 0;
+	margin: 2em 0em auto;
+	border: none;
+	border-radius: 0;
+}
+
+.footer-text {
+	color: lightcoral;
+	text-align: center;
+}
+
+.v-link {
+	color: lightcoral;
+	text-decoration: underline;
+}
+
+.grid {
+	width: 100%;
+	padding-bottom: 2.5em;
+}
+
+.grid-item {
+	width: 90%;
+}
+
+.order-form-box {
+	margin-bottom: 1.5em;
+}
+
+.insta-follow {
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+.insta-widget {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: .5em;
+}
+
+.social-link {
+	width: 3em;
+	margin-bottom: .25em;
+	padding: 0 .5em;
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		padding: 0;
+	}
+	#logo_image {
+		content: url(../images/main-logo.png);
+		margin-left: 1em;
+		height: 50px;
+	}
+	body {
+		padding-top: 51px;
+	}
+	.hero-image {
+		content: url(../images/hero-image-md.png);
+	}
+	.home-content {
+		font-size: 1.3em;
+	}
+	.about {
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
+	.gallery {
+		margin: 1em auto;
+	}
+	.page-header {
+		font-size: 5em;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 0;
+	}
+	.page-header.inside {
+		margin-left: .8em;
+	}
+	.cd-headline {
+		font-size: 3em;
+	}
+
+	.grid-item {
+		width: 32%;
+	}
+
+	.insta-follow {
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 992px) {
+	.grid-item {
+		width: 19%;
+	}
+}
