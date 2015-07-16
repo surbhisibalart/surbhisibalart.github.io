@@ -19,7 +19,6 @@
 </head>
 
 <body>
-	<div class="se-pre-con"></div>
 	<!-- NAV -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
@@ -152,11 +151,6 @@
 		// layout Masonry after each image loads
 		$grid.imagesLoaded().progress( function() {
 		  $grid.masonry('layout');
-		});
-
-		$(window).load(function() {
-			// Animate loader off screen
-			$(".se-pre-con").fadeOut("slow");;
 		});
 	</script>
 	<!-- FOOTER -->
