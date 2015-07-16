@@ -233,7 +233,7 @@ body {
 }
 
 .links {
-	margin: none;
+	margin: 0;
 }
 
 @media (min-width: 768px) {
