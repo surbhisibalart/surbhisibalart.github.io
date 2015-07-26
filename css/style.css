@@ -228,6 +228,10 @@ p.hero-text {
 	background-color: lightgrey;
 }
 
+a:hover {
+	color: white;
+}
+
 @media (min-width: 768px) {
 	.hero-div {
 		background: url(../images/hero-md.jpg);
