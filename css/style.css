@@ -282,6 +282,9 @@ p.hero-text {
 		font-size: 2em;
 		margin-top: 5%;
 	}
+	.home-content-box {
+		padding: 0 .5em;
+	}
 }
 
 @media (min-width: 992px) {
@@ -298,5 +301,8 @@ p.hero-text {
 	p.hero-text {
 		margin: 2em auto;
 		font-size: 3em;
+	}
+	.home-content-box {
+		padding: 0 2em;
 	}
 }
